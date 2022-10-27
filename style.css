@@ -1,0 +1,122 @@
+/* General Design */
+
+body{
+  background-color: #DECBB7;
+  color: #151817;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+  }
+
+h1,h2,h3{
+  font-family: 'Lora', serif;
+  color: #546A76;
+  letter-spacing:2px;
+  }
+
+h1{
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+  line-height: 1;
+  }
+
+h2{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 3;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 3;
+  text-align: center;
+}
+
+a{
+  color : #9632F3;
+  text-decoration: none;
+  text-shadow: grey;
+  font-size: 18px ;
+  }
+
+
+
+/* Custom Design with class */
+
+
+.container{
+  width: 900px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white{
+  background-color: whitesmoke;
+  margin: 40px 40px;
+  padding: 0px 50px 30px 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgb(10 10 10 / 10%);
+}
+
+.button-blue{
+  background-color: #6b0ec2 ;
+  color: whitesmoke ;
+  padding:  15px 20px;
+}
+
+.button-blue:hover{
+  background-color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.img-circle{
+  border-radius: 50%;
+  width: 20%;
+}
+
+.list-horizontal{
+  list-style: none ;
+  padding-left: 0px;
+}
+
+.list-horizontal li{
+  display: inline;
+  padding: 10px;
+}
+
+/* Custom Design with id */
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+#introduction h1 {
+  padding-top: 25px;
+}
+
+
+
+
